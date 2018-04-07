@@ -1,0 +1,12 @@
+#!/bin/bash
+
+fswebcam \
+    --device /dev/video1 \
+    --resolution 1280x960 \
+    --palette YUYV \
+    --set brightness=80% \
+    --set contrast=50% \
+    --set saturation=50% \
+    --set white-balance-auto=false \
+    --set white-balance-temperature=6500 \
+  image.jpg
